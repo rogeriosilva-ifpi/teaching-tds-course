@@ -2,13 +2,14 @@
 # Alunos Problema
 # temos dois alunos a e b
 # a_sorri e b_sorri indicam se a e b sorriem
-# temos problemas quando ambos estão sorrindo ou ambos não estão sorrindo
+# temos problemas quando ambos estão sorrindo ou ambos
+#  não estão sorrindo
 # retorne True quando houver problemas
 from Testes import teste, msg_sucesso, msg_inicio
 
 
 def alunos_problema(a_sorri, b_sorri):
-    pass
+    return a_sorri == b_sorri
 
 
 msg_inicio('Alunos Problema')

@@ -8,7 +8,7 @@ from Testes import teste, msg_sucesso, msg_inicio
 
 
 def papagaio(falando, hora):
-    pass
+    return falando and (hora < 7 or hora > 20)
 
 
 msg_inicio('Papagaio')

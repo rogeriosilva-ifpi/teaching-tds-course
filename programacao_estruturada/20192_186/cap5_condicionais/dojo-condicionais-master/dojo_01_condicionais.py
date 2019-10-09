@@ -7,7 +7,14 @@ from Testes import teste, msg_sucesso, msg_inicio
 
 
 def fizzbuzz(n):
-    pass
+    if n % 3 == 0 and n % 5 == 0:
+        return 'fizz-buzz'
+    elif n % 3 == 0:
+        return 'fizz'
+    elif n % 5 == 0:
+        return 'buzz'
+    else:
+        return n
 
 
 msg_inicio('FizzBuzz')
@@ -16,7 +23,7 @@ teste(fizzbuzz(2), 2)
 teste(fizzbuzz(3), 'fizz')
 teste(fizzbuzz(4), 4)
 teste(fizzbuzz(5), 'buzz')
-teste(fizzbuzz(15), 'fizzbuzz')
-teste(fizzbuzz(30), 'fizzbuzz')
+teste(fizzbuzz(15), 'fizz-buzz')
+teste(fizzbuzz(30), 'fizz-buzz')
 teste(fizzbuzz(148), 148)
 msg_sucesso()
