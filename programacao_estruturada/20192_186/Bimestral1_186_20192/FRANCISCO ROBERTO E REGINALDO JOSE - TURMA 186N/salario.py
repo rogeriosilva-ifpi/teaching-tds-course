@@ -1,10 +1,10 @@
 def progama():
-    professor = input('Digite o nome do professor:')
+    prof = input('Digite o nome do professor:')
     regime = int(input('Digite o regime de trabalho:'))
     qualificacao = input('Digite sua qualificação: ')
-    print ('Professor',professor,'com salario de: ',salario(professor,regime,qualificacao))
+    print ('Professor',prof,'com salario de: ',salario(prof,regime,qualificacao))
 
-def salario(professor,regime,qualificacao):
+def salario(prof,regime,qualificacao):
     if (regime == 20):
         salabrut = 2500
     elif(regime == 40):
