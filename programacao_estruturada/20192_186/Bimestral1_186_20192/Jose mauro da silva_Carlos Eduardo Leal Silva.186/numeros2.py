@@ -11,10 +11,7 @@ media = soma/quant
 print(soma)
 print(media)//
 '''
-p=int(input('quantos numeros voce ira digitar: '))
-n=int(input('digite um numero: '))
+p = int(input('quantos numeros voce ira digitar: '))
+n = int(input('digite um numero: '))
 for q in (p):
-        n=int(input('digite um numero: '))
-
-        
-    
+    n = int(input('digite um numero: '))

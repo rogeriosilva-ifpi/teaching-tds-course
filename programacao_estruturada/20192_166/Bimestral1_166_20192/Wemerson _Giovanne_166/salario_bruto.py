@@ -3,7 +3,6 @@ def pao():
     regime = int(input('seu regime de trabalho: '))
     qualificacao = input('sua qualificação: ')
 
-
     if regime == 20:
         print(salario)
     else:

@@ -3,6 +3,7 @@ print('\n')
 
 angulo_inicial = float(input('Qual o angulo? \n >>> '))
 
+
 def angulo():
     if angulo_inicial <= 90:
         print('O angulo informado pertence ao primeiro quadrante')
@@ -12,6 +13,7 @@ def angulo():
         print('O angulo informado pertence ao terceiro quadrante')
     elif angulo_inicial <= 360:
         print('O angulo informado pertence ao quarto quadrante')
+
 
 def angulo_correto():
     angulo_corigido = angulo_inicial % 360
@@ -23,8 +25,6 @@ def angulo_correto():
         print('O angulo informado pertence ao terceiro quadrante')
     elif angulo_corigido <= 360:
         print('O angulo informado pertence ao quarto quadrante')
-
-
 
 
 if angulo_inicial > 360:

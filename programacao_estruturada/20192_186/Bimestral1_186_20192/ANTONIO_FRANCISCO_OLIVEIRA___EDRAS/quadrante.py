@@ -1,8 +1,9 @@
 def programa():
-    angulo = float (input('Digite o angulo'))
-    print('Angulo pertence ao: ',quadrante(angulo))
+    angulo = float(input('Digite o angulo'))
+    print('Angulo pertence ao: ', quadrante(angulo))
 
-def quadrante (angulo):
+
+def quadrante(angulo):
     if 0 < angulo < 90:
         return 'primeiro quadrante'
     elif 90 < angulo < 180:
@@ -13,5 +14,6 @@ def quadrante (angulo):
         return 'quarto quadrante'
     else:
         return 'O angulo esta no eixo.'
+
 
 programa()

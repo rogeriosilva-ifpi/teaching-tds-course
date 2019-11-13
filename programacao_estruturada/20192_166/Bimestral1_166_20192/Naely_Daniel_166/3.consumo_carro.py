@@ -1,4 +1,4 @@
-#Calcular custo de consumo de um carro
+# Calcular custo de consumo de um carro
 
 c_fabrica = float(input('Custo de fábrica: '))
 

@@ -2,9 +2,9 @@ def pao():
     Altura = float(input('Digite sua altura: '))
     Peso = float(input('Digite seu peso: '))
 
-    imc = Peso /(Altura * Altura )
+    imc = Peso / (Altura * Altura)
     print(imc)
-    
+
     if imc <= 17:
         print('muito abaixo do peso')
     elif imc <= 18.49:
@@ -20,5 +20,5 @@ def pao():
     else:
         print('obesidade III')
 
-        
+
 pao()

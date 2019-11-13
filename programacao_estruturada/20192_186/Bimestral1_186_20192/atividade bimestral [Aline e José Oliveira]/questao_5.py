@@ -1,6 +1,7 @@
 def programa():
     angulo = float(input('Digite um valor de ângulo de (0° a 360°): '))
-    print('O ângulo está',quadrante(angulo),'.')
+    print('O ângulo está', quadrante(angulo), '.')
+
 
 def quadrante(angulo):
     if 0 < angulo < 90.0:
@@ -13,5 +14,6 @@ def quadrante(angulo):
         return 'no IV quadrante'
     else:
         return 'sobre um eixo'
+
 
 programa()

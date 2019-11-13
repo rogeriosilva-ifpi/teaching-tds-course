@@ -5,4 +5,5 @@ def programa():
     valor = custo + distribuido + inposto
     print('esse e o valor final', valor)
 
-programa() 
+
+programa()

@@ -6,7 +6,7 @@ def programa():
 
     consumidor = x + y
 
-    print("O custo ao consumidor é de:",consumidor)
+    print("O custo ao consumidor é de:", consumidor)
 
 
 programa()

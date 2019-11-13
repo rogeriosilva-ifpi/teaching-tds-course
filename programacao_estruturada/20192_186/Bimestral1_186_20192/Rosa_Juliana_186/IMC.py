@@ -1,7 +1,7 @@
 a = float(input('qual seu altura: '))
 p = float(input('qual sua peso: '))
 
-imc = p / (a* a)
+imc = p / (a * a)
 
 if imc < 17:
     print('muito abaixo do peso')
@@ -17,8 +17,3 @@ elif imc > 35 < 39.99:
     print('obesidade 2')
 else:
     print('obesidade 3')
-    
-
-
-
-

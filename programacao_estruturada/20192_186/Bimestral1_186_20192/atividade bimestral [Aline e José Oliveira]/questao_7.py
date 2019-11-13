@@ -12,6 +12,8 @@ def programa():
         else:
             contador_impares += 1
 
-    print('Foram digitados',contador_numeros,'números, sendo',contador_pares,'números pares e',contador_impares,'números ímpares.')
+    print('Foram digitados', contador_numeros, 'números, sendo',
+          contador_pares, 'números pares e', contador_impares, 'números ímpares.')
+
 
 programa()

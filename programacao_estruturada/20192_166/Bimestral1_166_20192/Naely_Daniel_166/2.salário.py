@@ -1,10 +1,12 @@
-#Cálcular salário de Professor na Universidade
+# Cálcular salário de Professor na Universidade
 
 nome = input('Digite seu nome: ')
 regime = int(input('Regime de Trabalho (20 ou 40 hrs): '))
 qualificacao = input('Qualificação (E, M, D): ')
 
-#Salário Bruto
+# Salário Bruto
+
+
 def ch(regime):
     if regime == 20:
         valor = 2500
@@ -12,6 +14,7 @@ def ch(regime):
     else:
         valor = 4500
         return valor
+
 
 salario = ch(regime)
 
@@ -22,12 +25,12 @@ elif qualificacao == 'M':
 else:
     salario = salario * 1.70
 
-#Descontos
+# Descontos
 previdencia = salario * 0.11
 IR = salario * 0.275
-salario_liquido = salario -(previdencia + IR)
+salario_liquido = salario - (previdencia + IR)
 
-#Saída
+# Saída
 print('')
 print(f'Nome: {nome}')
 print(f'Salário Bruto: {salario}')

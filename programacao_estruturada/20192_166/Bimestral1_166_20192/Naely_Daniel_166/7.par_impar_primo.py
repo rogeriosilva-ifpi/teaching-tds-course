@@ -1,13 +1,15 @@
-#Calulcar pares, impares e primos
+# Calulcar pares, impares e primos
 print('')
 quantidade = int(input('Quantidade de números: '))
 c = 0
+
 
 def e_par(n):
     if n % 2 == 0:
         return True
     else:
         return False
+
 
 def primo(n):
     if (n % 2 == 0) and not(n == 2):
@@ -16,6 +18,7 @@ def primo(n):
         pass
     else:
         return True
+
 
 quant_pares = 0
 quant_impares = 0
@@ -33,7 +36,6 @@ while c < quantidade:
         quant_impares = quant_impares + 1
     elif primo(n):
         quant_primos = quant_primos + 1
-    
 
     c = c + 1
 print('')

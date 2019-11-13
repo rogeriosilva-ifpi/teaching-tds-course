@@ -1,4 +1,4 @@
-def programa ():
+def programa():
     peso = float(input("Informe seu peso em quilograma:"))
     altura = float(input("Informe sua altura em metros:"))
 
@@ -18,8 +18,7 @@ def programa ():
     elif imc >= 35 and imc <= 39.99:
         print("Obesidade II (severa)")
     else:
-         print("Obesidade III (mórbida)")
-
+        print("Obesidade III (mórbida)")
 
 
 programa()

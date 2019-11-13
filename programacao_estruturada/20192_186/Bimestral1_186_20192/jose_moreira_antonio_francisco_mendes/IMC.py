@@ -5,7 +5,7 @@ def programa():
     imc = peso / altura ** 2
 
     if imc < 17:
-        print("Muito abaixo do peso") 
+        print("Muito abaixo do peso")
     elif imc > 17 and imc < 18.49:
         print("Abaixo do peso")
     elif imc > 18.5 and imc < 24.99:
@@ -18,5 +18,6 @@ def programa():
         print("Obesidade II (Severa)")
     else:
         print("Obesidade III (Morbida)")
+
 
 programa()

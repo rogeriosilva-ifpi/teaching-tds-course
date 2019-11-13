@@ -2,7 +2,7 @@ def programa():
     Altura = float(input('Digite altura: '))
     Peso = float(input('Digite peso: '))
 
-    IMC = Peso / (Altura * Altura) 
+    IMC = Peso / (Altura * Altura)
 
     if IMC <= 17:
         print('Muito abaixo do peso')
@@ -18,9 +18,6 @@ def programa():
         print('Obesidade II (severa)')
     elif IMC > 40:
         print('Obesidade III(mórbida)')
-
-
-
 
 
 programa()

@@ -1,9 +1,10 @@
 peso = float(input('Qual é o seu peso? '))
 altura = float(input('Qual é a sua altura? '))
 
+
 def imc(peso, altura):
     imc = (peso / (altura * altura))
-    
+
     if imc < 17.0:
         print('Muito abaixo do peso.')
     elif 17.0 < imc < 18.49:
@@ -19,6 +20,5 @@ def imc(peso, altura):
     elif imc > 40.0:
         print('Obesidade 3 (mórbida).')
 
+
 imc(peso, altura)
-
-

@@ -4,7 +4,7 @@ def programa():
 
     area = (base * altura)/2
 
-    print("A area do triangulo sera de : " , area)
+    print("A area do triangulo sera de : ", area)
 
 
 programa()

@@ -1,5 +1,5 @@
-peso=float(input('Digite peso:'))
-altura=float(input('Digite a altura'))
+peso = float(input('Digite peso:'))
+altura = float(input('Digite a altura'))
 imc = peso / altura ** 2
 if imc < 17:
     print('Muito abaixo do Peso')

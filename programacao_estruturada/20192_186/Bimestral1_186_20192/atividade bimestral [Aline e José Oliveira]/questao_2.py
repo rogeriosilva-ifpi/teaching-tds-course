@@ -2,6 +2,7 @@ nome = input('Nome do professsor: ')
 regime = int(input('Regime de trabalho (20h ou 40h): '))
 qualificacao = input('Qualificação do professor (E, M ou D): ')
 
+
 def salario(nome, regime, qualificacao):
     if regime == 20:
         if qualificacao == 'E' or qualificacao == 'e':
@@ -25,4 +26,6 @@ def salario(nome, regime, qualificacao):
             salario_liquido = salario_bruto*0.615
     return salario_liquido
 
-print('Professor(a)',nome,'tem salário líquido igual a R$',salario(nome, regime, qualificacao),'.')
+
+print('Professor(a)', nome, 'tem salário líquido igual a R$',
+      salario(nome, regime, qualificacao), '.')

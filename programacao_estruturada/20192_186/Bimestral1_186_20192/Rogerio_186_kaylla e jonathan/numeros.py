@@ -4,4 +4,6 @@ def programa():
         return int(input('informe o numero:'))
     elif numeros < 0:
         print('negativos')
+
+
 programa()

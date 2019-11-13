@@ -4,34 +4,40 @@ def regime_salario(regime):
     elif regime == 40:
         return 4500
 
+
 def qualificacao_adicional(qualificacao):
     if qualificacao == 'E':
         return 0.30
     elif qualificacao == 'M':
         return 0.52
-    elif qualificacao == 'D': 
+    elif qualificacao == 'D':
         return 0.70
+
 
 nome = input("Digite o nome do professor: ")
 
 ######## cálculo do salário base pelo regime #########
-regime = int(input("Digite se o regime de trabalho é \"20\" para 20h ou \"40\" para 40h: "))
+regime = int(
+    input("Digite se o regime de trabalho é \"20\" para 20h ou \"40\" para 40h: "))
 
 while(regime != 20 and regime != 40):
     print("Carga horária inválida\n")
-    regime = int(input("Digite se o regime de trabalho é \"20\" para 20h ou \"40\" para 40h: "))
+    regime = int(
+        input("Digite se o regime de trabalho é \"20\" para 20h ou \"40\" para 40h: "))
 
 salario_base = regime_salario(regime)
 
 print()
 
 ########### cálculo do adicional pela qualificação ##############
-qualificacao = input("Digite se a qualificação \"E\" para Especialista, \"M\" para Mestre ou \"D\" para Doutor: ")
+qualificacao = input(
+    "Digite se a qualificação \"E\" para Especialista, \"M\" para Mestre ou \"D\" para Doutor: ")
 qualificacao = qualificacao.upper()
 
 while(qualificacao != 'E' and qualificacao != 'M' and qualificacao != 'D'):
     print("Entrada inválida\n")
-    qualificacao = input("Digite se a qualificação \"E\" para Especialista, \"M\" para Mestre ou \"D\" para Doutor: ")
+    qualificacao = input(
+        "Digite se a qualificação \"E\" para Especialista, \"M\" para Mestre ou \"D\" para Doutor: ")
     qualificacao = qualificacao.upper()
 
 adicional_porcentagem = qualificacao_adicional(qualificacao)

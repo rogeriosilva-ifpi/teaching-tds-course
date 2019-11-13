@@ -1,4 +1,4 @@
-#Calcular IMC
+# Calcular IMC
 
 peso = float(input('Digite seu peso(Ex: 60.5 kg): '))
 altura = float(input('Digite sua altura(Ex: 1.75 m): '))
@@ -19,5 +19,3 @@ elif imc >= 35 and imc <= 39.99:
     print('Obesidade Tipo II (Severa).')
 else:
     print('Obesidade Tipo III (Mórbida).')
-
-

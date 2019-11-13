@@ -8,4 +8,3 @@ elif angulo < 270:
     print('terceiro quadrante')
 elif angulo <= 360:
     print('quarto quadrante')
-    

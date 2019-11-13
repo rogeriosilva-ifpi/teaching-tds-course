@@ -4,4 +4,4 @@ altura = float(input('defina a altura:'))
 
 area = (base*altura) / 2
 
-print('area é:',area)
+print('area é:', area)

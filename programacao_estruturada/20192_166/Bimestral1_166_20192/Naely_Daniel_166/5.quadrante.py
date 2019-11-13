@@ -1,4 +1,4 @@
-#definir quadrante de um ângulo em graus
+# definir quadrante de um ângulo em graus
 
 angulo = int(input('Ângulo (0 - 360°): '))
 
@@ -10,5 +10,3 @@ elif angulo > 180 and angulo <= 270:
     print('Terceiro Quadrante.')
 else:
     print('Quarto Quadrante.')
-
-
