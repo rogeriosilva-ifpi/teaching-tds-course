@@ -1,0 +1,2 @@
+def = main(corrida_uber):
+    qtd_corrida = input("Quantas corridas foram feitas no dia?")

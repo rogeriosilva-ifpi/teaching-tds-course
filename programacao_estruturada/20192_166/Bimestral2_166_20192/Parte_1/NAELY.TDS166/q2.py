@@ -1,0 +1,5 @@
+def programa():
+    pass
+
+
+programa()
