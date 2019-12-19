@@ -9,7 +9,7 @@ def programa():
     uber = total * (25/100)
     motorista = total - uber  # total * (75/100)
 
-    print('Total     R$: ', total)
+    print('Total     R$:', total)
     print('Uber      R$:', uber)
     print('Motorista R$:', motorista)
 
